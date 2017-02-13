@@ -1,0 +1,29 @@
+{
+  "name": "learningWebpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "NODE_ENV=production npm run clean && webpack -p",
+    "serve": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "html-webpack-plugin": "^2.28.0",
+    "image-webpack-loader": "^3.2.0",
+    "rimraf": "^2.5.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.0-rc.0",
+    "webpack-dev-server": "^2.2.0-rc.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8"
+  }
+}
