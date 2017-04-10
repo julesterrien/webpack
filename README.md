@@ -183,3 +183,5 @@ if (process.env.NODE_ENV !== 'production') {
   })
 }
 ```
+
+Useful notes: https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9
